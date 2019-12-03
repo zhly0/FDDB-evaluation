@@ -1,8 +1,9 @@
 # FDDB
 * The example is output from centerface_small. steps:
-  * 1 python test_fddb.py to get fddb detection result txt file(need to specify where the detect image is)
+  * 1 python test_fddb.py to get fddb detection result txt file(need to specify where the detect image is,download from here http://vis-www.cs.umass.edu/fddb/index.html#download)
   * 2 python FDDB.py to get two ROC txt
   * 3 python runFDDB_example.py to get final ROC image
+
   * ![](./img/PNET_result.png)
 ___
 ### Information
