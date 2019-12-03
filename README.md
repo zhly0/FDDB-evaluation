@@ -1,5 +1,8 @@
 # FDDB
-* The example is output from MTCNN Pnet. 
+* The example is output from centerface_small. steps:
+  *1 python test_fddb.py to get fddb detection result txt file
+  *2 python FDDB.py to get two ROC txt
+  *3 python runFDDB_example.py to get final ROC image
   * ![](./img/PNET_result.png)
 ___
 ### Information
