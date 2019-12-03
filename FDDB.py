@@ -1,7 +1,7 @@
 import sys
 from os import system
 
-def runFDDB(pred=None, result_path=None, index=-1):
+def runFDDB(pred=r'./fddb_dets0.txt', result_path=None, index=-1):
     # 設定evaluate參數
     # -a : ground truth的TXT檔
     # -d : 你的演算法產生的答案TXT檔
